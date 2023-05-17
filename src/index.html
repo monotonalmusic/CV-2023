@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+       <title>Document</title>
+</head>
+<body>
+    <div id="container" class="d-flex flex-column">
+    <div id="header" style="height:100px" class="bg-black d-flex justify-content-between align-items-end fixed-top px-5 ">
+        <div id="header-left">
+            <h1 id="name" style="color:whitesmoke">Gabriel Hughes</h1>
+        </div>
+        <a href="https://github.com/monotonalmusic">
+          <img id="git-icon" class="img-fluid" src="../images/github_PNG40-modified.png">
+        </a>
+        <div id="header-right" class="d-flex gap-5">
+            <a href="#block-one"class="link-light text-decoration-none">Who am I?</a>
+            <a href="#work"class="link-light text-decoration-none">My work...</a>
+            <a href="#CV"class="link-light text-decoration-none">Experience</a>
+            <a href="#block-four"class="link-light text-decoration-none">Contact</a>
+        </div> a
+    </div>
+    <div id="block-one" style="height: 500px; background-color: #cc5533;" class="d-flex justify-content-between align-items-center px-5">
+        <div id="one-left" class="d-flex flex-column justify-content-start w-50">
+            <h1>Who am I?</h1>
+            <p id="about-me">My name is Gabriel, and I'm a Danish/American developer. I'm currently studying 'Datatekniker med speciale i programmering' at Mercantec in Viborg.
+                <br> I have experience using HTML, CSS, and JavaScript to make web applications.</p>
+        </div>
+        <div id="one-right" class="d-flex h-100 justify-content-end align-items-center">
+            <img src="../images/cafe pic.jpg" id="cafe"class="h-50 w-auto rounded-4 ">
+        </div>
+    
+    </div>
+    <div id="block-two" style="background-color: #f1c232" class="d-flex flex-column align-items-center gap-lg-5 pb-5">
+        <h1 id="work">My work...</h1>
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active c-item">
+                  <img class="d-block c-img" src="../images/sketch-screenshot.png" alt="First slide">
+                </div>
+                <div class="carousel-item c-item">
+                  <img class="d-block c-img" src="../images/Rock-paper-scissors.png" alt="Second slide">
+                </div>
+                <div class="carousel-item c-item">
+                  <img class="d-block c-img" src="../images/Cookie-clicker-screenshot.png" alt="Third slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only"></span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only"></span>
+              </a>
+          </div>
+    </div>
+        <div id="block-three" class="d-flex" style="background-color: #1F2937; color: whitesmoke;">
+            <div id="three-left" class="d-flex flex-column pt-5 px-5 w-50 gap-3">
+                <h3 id="experience">Experience</h3>
+                    <ul>
+                        <li class="bullet"><b>2.5 years</b> of experience as a <b>pædagogmedhjælper</b> with children from 0-6, in both short and long term substitute positions </li>
+                        <li class="bullet">Worked in many different high-tempo and stressful environments, including being a <b>bartender/receptionist</b> at a youth hostel, and a <b>barista</b> working alone in multiple busy Copenhagen cafes </li>
+                        <li class="bullet"><b>1 year</b> working on farms, construction sites and other sustainable projects in Portugal, learning about sustainable farming and alternative living</li>
+                    </ul>
+                <h3>Fun facts </h3>
+                    <ul>
+                        <li class="bullet">I've walked the Camino de Santiago (1000km) alone! </li>
+                        <li class="bullet">I write 100+ wpm in English </li>
+                        <li class="bullet">Fluent in Danish (bestået studieprøven med 7 i alt), English being my mother tongue</li>
+                
+                    </ul>
+            </div>
+            <div id="three-right" class="w-50 pt-5 d-flex flex-column justify-content-center align-items-center">
+                <h3>CV?</h3>
+                <a href="https://docs.google.com/document/d/1PMvp2THAQmn5HVTfSeKNFwWjF0mUOc6pG3OQBa8ddfo/edit?usp=sharing" style="cursor:pointer" class="hover-zoom"><img id="CV" src="../images/CV.png" class="img-fluid w-80 h-75 rounded-4"></a>
+            </div>
+        </div>
+        <div id="block-four" style="background-color: #f1c232"class="d-flex justify-content-center align-items-center py-5">
+            <div id="vis-container">
+                <div id="touch-div">
+                    <p class="d-block w-100 h-auto"><b>Want to get in touch?</b></p> 
+                </div> 
+                <div class="overlay">
+                  <div class="text"><b>gehughes28@gmail.com <br> +45 42 66 77 07 </b></div>
+                </div>
+              </div>
+        </div>
+    
+    </div>
+</div>
+    
+</body>
+
+</html>
